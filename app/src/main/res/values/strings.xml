@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">World Of Matrix</string>
+    <string name="operation">Operation</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multi">*</string>
+    <string name="tv_name_matrix">C = </string>
+    <string name="tv_sign_Matrix">{ </string>
+    <string name="tv_sign_Matrix2">} </string>
+    <string name="name_Matrix_B">B </string>
+    <string name="name_Matrix_A">A </string>
+    <string name="title_in_Dialog">Achtung! </string>
+
+    <string name="back">BACK</string>
+    <string name="result">Activity will show the result of operation!</string>
+    <string name="button_result">Result </string>
+    <string name="auto_fill">Auto fill</string>
+
+    <string name="num">Num</string>
+
+    <string name="alert_title">Achtung!</string>
+    <string name="alert_empty_matrixA_msg">Please fill the matrix A!</string>
+    <string name="alert_empty_matrixB_msg">Please fill the matrix B!</string>
+
+    <string name="alert_title_of_sign_title">"Attention"</string>
+    <string name="alert_title_of_sign_msg">"Make your choice of Operation"</string>
+
+
+</resources>

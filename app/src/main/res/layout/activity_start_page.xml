@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dynamo"
+    >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@color/zenit"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:text="@string/app_name"
+        />
+
+    <Button
+        android:id="@+id/auto_fill"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@color/barca"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:text="@string/auto_fill"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_gravity="center"
+        >
+
+        <TextView
+            style="@style/Matrix.Name"
+            android:text="@string/name_Matrix_A"
+            />
+
+        <TextView
+            style="@style/Matrix.Sign"
+            android:text="@string/tv_sign_Matrix"
+            />
+
+      </LinearLayout>
+
+    <LinearLayout
+        style="@style/Style_LinearLayout"
+        >
+
+        <EditText
+            android:id="@+id/num00"
+            style="@style/Matrix.Field"
+            />
+
+        <EditText
+            android:id="@+id/num10"
+            style="@style/Matrix.Field"
+            />
+
+        <EditText
+            android:id="@+id/num20"
+            style="@style/Matrix.Field"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            style="@style/Style_LinearLayout"
+            >
+
+            <EditText
+                android:id="@+id/num01"
+                style="@style/Matrix.Field"
+                />
+
+            <EditText
+                android:id="@+id/num11"
+                style="@style/Matrix.Field"
+                />
+
+            <EditText
+                android:id="@+id/num21"
+                style="@style/Matrix.Field"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Style_LinearLayout"
+            >
+
+            <EditText
+                android:id="@+id/num02"
+                style="@style/Matrix.Field"
+                />
+
+            <EditText
+                android:id="@+id/num12"
+                style="@style/Matrix.Field"
+                />
+
+            <EditText
+                android:id="@+id/num22"
+                style="@style/Matrix.Field"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Matrix.Sign"
+            android:text="@string/tv_sign_Matrix2"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+           android:id="@+id/buttonPlus"
+           style="@style/Sign_style"
+           android:layout_marginStart="10dp"
+            android:layout_weight="1"
+           android:text="@string/plus"
+           />
+
+        <Button
+            android:id="@+id/buttonMinus"
+            style="@style/Sign_style"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/minus"
+            />
+
+        <Button
+            android:id="@+id/buttonMulti"
+            style="@style/Sign_style"
+            android:paddingTop="3dp"
+            android:layout_weight="1"
+            android:text="@string/multi"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                style ="@style/Matrix.Name"
+                android:text="@string/name_Matrix_B"
+                />
+
+            <TextView
+                style="@style/Matrix.Sign"
+                android:text="@string/tv_sign_Matrix"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Style_LinearLayout"
+            >
+
+            <EditText
+                android:id="@+id/numB00"
+                style="@style/Matrix.Field"
+                />
+
+            <EditText
+                android:id="@+id/numB10"
+                style="@style/Matrix.Field"
+                />
+
+            <EditText
+                android:id="@+id/numB20"
+                style="@style/Matrix.Field"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Style_LinearLayout"
+            >
+            <EditText
+                android:id="@+id/numB01"
+                style="@style/Matrix.Field"
+                />
+            <EditText
+                android:id="@+id/numB11"
+                style="@style/Matrix.Field"
+                />
+
+            <EditText
+                android:id="@+id/numB21"
+                style="@style/Matrix.Field"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Style_LinearLayout"
+            android:layout_gravity="center"
+
+            >
+            <EditText
+                android:id="@+id/numB02"
+                style="@style/Matrix.Field"
+
+                />
+            <EditText
+                android:id="@+id/numB12"
+                style="@style/Matrix.Field"
+
+                />
+
+            <EditText
+                android:id="@+id/numB22"
+                style="@style/Matrix.Field"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Matrix.Sign"
+            android:text="@string/tv_sign_Matrix2"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/barca">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="@drawable/loader2_progress"
+            android:indeterminateOnly="true"
+
+            />
+
+        <Button
+            android:id="@+id/buttonResult"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_gravity="bottom"
+            android:background="@drawable/change_color_of_button"
+            android:textColor="@color/zenit"
+            android:text="@string/button_result"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
